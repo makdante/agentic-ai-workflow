@@ -1,0 +1,1 @@
+#can detect and suggest fixes for errors, integrating with code_analysis/ tools
