@@ -60,6 +60,7 @@ class BaseRepository:
         obj = self.get_by_id(session, obj_id)
         if obj:
             session.delete(obj)
+            session.commit()
             return True
         return False
     
